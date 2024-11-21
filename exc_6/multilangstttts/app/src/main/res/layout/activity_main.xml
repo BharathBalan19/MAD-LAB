@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity=""
+    android:background="@drawable/ic_launcher_background">
+
+    <!-- Input Text Field with Stylish Hint -->
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="352dp"
+        android:layout_height="219dp"
+        android:background="@drawable/rounded_edittext"
+        android:gravity="center"
+        android:hint="Your Text Will Appear Here"
+        android:padding="12dp"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <!-- Language Selection Dropdown with Rounded Corners -->
+    <Spinner
+        android:id="@+id/languageSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="101dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_spinner"
+        android:entries="@array/languages"
+        android:padding="10dp"
+        android:textAlignment="center" />
+
+    <!-- Speak Button with Modern Design -->
+
+    <!-- Convert Text-to-Speech Button with Modern Design -->
+    <!-- Signature with Beautiful Styling -->
+
+    <Button
+        android:id="@+id/btnSpeak"
+        android:layout_width="351dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/rounded_button"
+        android:padding="16dp"
+        android:text="Start Speaking"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnConvert"
+        android:layout_width="349dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_button"
+        android:padding="16dp"
+        android:text="Convert to Speech"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/signature"
+        android:layout_width="336dp"
+        android:layout_height="145dp"
+        android:layout_gravity=""
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-light"
+        android:text="அருணா"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</LinearLayout>
